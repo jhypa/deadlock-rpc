@@ -3,7 +3,7 @@ import { statSync, openSync, readSync, existsSync, readFileSync } from 'fs';
 import { join } from 'path';
 
 // --- CONFIGURATION ---
-const CLIENT_ID = 'YOUR_APP_ID_HERE'; 
+const CLIENT_ID = '1443735761873535107'; 
 const PROCESS_NAMES = ["project8.exe", "deadlock.exe"];
 const RESYNC_MAX_BYTES = 100 * 1024; // Only read the last 100KB for resync
 
