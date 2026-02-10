@@ -1,3 +1,3 @@
 Set WshShell = CreateObject("WScript.Shell") 
-WshShell.Run "bun run deadlock_service.ts", 0
+WshShell.Run "DeadlockRPC.exe", 0, False
 Set WshShell = Nothing

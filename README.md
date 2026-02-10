@@ -1,17 +1,13 @@
 # Deadlock Discord Rich Presence
 A lightweight, automatic Rich Presence for Valve's Deadlock. Shows your current Hero, Match Time, and Map status (Hideout vs Match).
 
-## How to use
-- Download the latest DeadlockRPC.exe from the Releases tab.
-- Configure Steam:
-Right-click Deadlock in Steam $\rightarrow$ Properties. In Launch Options, add exactly this: -condebug
-- This allows the program to read the game state from the console log.
-- Run the Program: Double-click DeadlockRPC.exe.\
-It will run silently in the background.
-- Launch Deadlock.
 
 ## Installation
 - Extract the ZIP file to a permanent location (e.g., your Documents folder).
+
+- Add `-condebug` in the Launch Options for Deadlock in your steam library.
+
+*(Right click Deadlock in Steam $\rightarrow$ Properties $\rightarrow$ Launch Options)*
 
 - **To run manually:** Double-click DeadlockRPC.exe.    
 
@@ -28,4 +24,4 @@ It will run silently in the background.
 
 - **Smart Detection**: Only shows on Discord when the game is actually running.
 
-- **Hero & Map Awareness**: Shows "In Hideout" or "Playing Infernus" automatically.
+- **Hero & Map Awareness**: Shows "In Hideout" or "In Match" and "Playing Infernus" automatically.

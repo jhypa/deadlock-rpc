@@ -3,6 +3,7 @@ node_modules
 .env
 *.exe
 *.zip
+
 # output
 out
 dist
