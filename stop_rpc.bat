@@ -1,2 +1,2 @@
 @echo off
-taskkill /f /im bun.exe
+taskkill /f /im DiscordRPC.exe
